@@ -40,4 +40,4 @@ app.use((error, req, res, next) => {
     res.json({ error: error.message })
 });
 
-app.listen(3030, () => console.log('Server is running'));
+app.listen(3030, () => console.log('Server is running - editandoTeste(06/06/21)'));
